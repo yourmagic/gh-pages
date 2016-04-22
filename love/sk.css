@@ -1,42 +1,4 @@
 
-   <Variable name="textcolor" description="Text Color"
-             type="color" default="#333" value="#333333">
-   <Variable name="linkcolor" description="Link Color"
-             type="color" default="#3366cc" value="#3366cc">
-   <Variable name="pagetitlecolor" description="Blog Title Color"
-             type="color" default="#fff" value="#ffffff">
-   <Variable name="descriptioncolor" description="Blog Description Color"
-             type="color" default="#eee" value="#eeeeee">
-   <Variable name="titlecolor" description="Post Title Color"
-             type="color" default="#000" value="#000000">
-   <Variable name="sidebarcolor" description="Sidebar Title Color"
-             type="color" default="#685357" value="#685357">
-   <Variable name="sidebartextcolor" description="Sidebar Text Color"
-             type="color" default="#666" value="#666666">
-   <Variable name="visitedlinkcolor" description="Visited Link Color"
-             type="color" default="#3366cc" value="#3366cc">
-   <Variable name="bodyfont" description="Text Font"
-             type="font" default="normal normal 110% Arial, Serif" value="normal normal 110% Arial, Serif">
-   <Variable name="headerfont" description="Sidebar Title Font"
-             type="font"
-             default="italic bold 140%/1.4em 'Georgia',Trebuchet,Arial,Verdana,Sans-serif" value="italic bold 140%/1.4em 'Georgia',Trebuchet,Arial,Verdana,Sans-serif">
-   <Variable name="pagetitlefont" description="Blog Title Font"
-             type="font"
-             default="300% Lobster,Serif" value="300% Lobster,Serif">
-   <Variable name="descriptionfont" description="Blog Description Font"
-             type="font"
-             default="90% 'Georgia',Trebuchet,Arial,Verdana,Sans-serif" value="90% 'Georgia',Trebuchet,Arial,Verdana,Sans-serif">
-   <Variable name="postfooterfont" description="Post Footer Font"
-             type="font"
-             default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
-   <Variable name="startSide" description="Side where text starts in blog language"
-             type="automatic" default="left" value="left">
-   <Variable name="endSide" description="Side where text ends in blog language"
-             type="automatic" default="right" value="right">
-*/
-
-/* Use this with templates/template-twocol.html */
-
 body {
 background:url("http://1.bp.blogspot.com/_Sd8u52mpBRQ/TD-UnfaStcI/AAAAAAAAAdA/XR3jkEw22ck/s1600/body-bg.png") repeat-x scroll 0 0 #FFFFFF;
 color:$textcolor;
